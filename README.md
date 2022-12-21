@@ -31,9 +31,9 @@ There are two files
 <img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.2_2.png" width="500">
 
 ## 2.3 Detecting outliers with Numerical variables
-<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.2_3_age.png" width="500">
-<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.2_3_2.png" width="500">
-<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.2_3_met.png" width="500">
+<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.3_age.png" width="500">
+<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.3_2.png" width="500">
+<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.3_met.png" width="500">
 * Age variable looks fine
 * For BMI, one value was close to 270 which is abnormal.
 * Interquantile range method is used to identify outliers.
@@ -41,10 +41,10 @@ There are two files
 * Remove all the rows for which MET>50
 * Remove row with BMI value equals to 270
 ## 2.4 Cancer disease distribution
-<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.2_4.png" width="500">
+<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.4.png" width="500">
 ## 2.5 Risk sum analysis
-<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.2_5_1.png" width="500">
-<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.2_5_2.png" width="500">
+<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.5_1.png" width="500">
+<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.5_2.png" width="500">
 
 # 3. ML Models to estimate risk of cancer
 * I tried following models
@@ -55,7 +55,7 @@ There are two files
     * LightGBM
     * Catboost
 * I have used RMSE as evaluation metrics to compare different models.
-<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/2.2_5_2.png" width="500">
+<img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/3.png" width="500">
 
 # 4. Feature Importance
 <img src="https://github.com/tikna123/disease-risk-prediction/blob/main/images/4.1.png" width="500">
